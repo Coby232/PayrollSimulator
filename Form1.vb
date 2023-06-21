@@ -46,7 +46,8 @@
                 TotalNumberOfPieces += NumberOfPiecesCompletedInteger
                 PersonCount += 1
                 TotalPay += AmountEarned
-                AveragePayPerPerson = TotalPay / PersonCount
+                AveragePayPerPerson = (TotalPay / PersonCount)
+
                 'fill textboxes
                 AmountEarnedTextBox.Text = AmountEarned.ToString("C2")
                 EmployeeTextBox.Text = WorkerNameTextBox.Text

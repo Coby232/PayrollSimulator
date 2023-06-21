@@ -6,7 +6,7 @@
 
     Private Sub SummaryButton_Click(sender As Object, e As EventArgs) Handles SummaryButton.Click
         MessageBox.Show("Total number of pieces:  " &
-            TotalNumberOfPieces & vbNewLine & "Total pay: " & TotalPay & vbNewLine & "Average pay per person: " & AveragePayPerPerson, "")
+            TotalNumberOfPieces & vbNewLine & "Total pay: " & TotalPay & vbNewLine & "Average pay per person: " & AveragePayPerPerson, "Summary")
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
